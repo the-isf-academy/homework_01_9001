@@ -37,14 +37,14 @@ class TestHomework_01_9000(unittest.TestCase):
         self.assertEqual(make_even(["say", "sike", "right", "now"]),["say", "sike", "right", "now"] )
 
     def test_count_value_1(self):
-        self.assertEqual(test_count_value_1([1, 1, 1, 1, 2, 2, 2, 3, 3, 4], 2), 3)
-        self.assertEqual(test_count_value_1([1, 1, 1, 1, 2, 2, 2, 3, 3, 4], 3), 2)
-        self.assertEqual(test_count_value_1([], 1), 0)
+        self.assertEqual(count_value_1([1, 1, 1, 1, 2, 2, 2, 3, 3, 4], 2), 3)
+        self.assertEqual(count_value_1([1, 1, 1, 1, 2, 2, 2, 3, 3, 4], 3), 2)
+        self.assertEqual(count_value_1([], 1), 0)
 
     def test_count_value_2(self):
-        self.assertEqual(test_count_value_2([1, 1, 1, 1, 2, 2, 2, 3, 3, 4], 2), 3)
-        self.assertEqual(test_count_value_2([1, 1, 1, 1, 2, 2, 2, 3, 3, 4], 3), 2)
-        self.assertEqual(test_count_value_2([], 1), 0)
+        self.assertEqual(count_value_2([1, 1, 1, 1, 2, 2, 2, 3, 3, 4], 2), 3)
+        self.assertEqual(count_value_2([1, 1, 1, 1, 2, 2, 2, 3, 3, 4], 3), 2)
+        self.assertEqual(count_value_2([], 1), 0)
 
 # This runs all the tests.
-unittest.main(verbosity=2)
+unittest.main(verbosity=1)
