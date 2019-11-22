@@ -4,6 +4,10 @@
 def mean(values):
     """
     Returns the mean (average) of a list of values.
+    
+    input: list of ints/floats
+    output: int/float
+    
         >>> mean([1, 3, 5])
         3
         >>> mean(range(100))
@@ -16,6 +20,10 @@ def create_ones_list(length):
     """
     Creates a list that has `length` number of elements, and each element is the integer 1.
     Returns the list.
+    
+    input: int
+    output list of ints
+    
         >>> create_ones_list(4)
         [1,1,1,1]
         >>> create_ones_list(15)
@@ -65,8 +73,10 @@ def make_even(string_list):
 def count_value_1(values, target):
     """
     Counts how many times `target` appears in `values` and returns an int.
+    
     input: a list of any type (values) and an int/float (target)
     output: an int
+    
         >>> values = [1, 1, 1, 1, 2, 2, 2, 3, 3, 4]
         >>> count_value(values, 2)
         3
@@ -81,6 +91,9 @@ def count_value_2(values, target):
     """
     You wrote the function above using one type of for-loop.
     Now write the exact same function as above, except use the other type of for-loop.
+    
+    input: a list of any type (values) and an int/float (target)
+    output: an int
 
     Hint: What are the two types of for-loops, you ask? Check out the Unit 0 Loops Lab.
     Or, here's a hint:
