@@ -22,7 +22,7 @@ class TestHomework_01_9000(unittest.TestCase):
         self.assertEqual(create_ones_list(1), [1])
         self.assertEqual(create_ones_list(0), [])
         self.assertEqual(create_ones_list(5), [1,1,1,1,1])
-        self.assertEqual(create_ones_list(50), [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,])
+        self.assertEqual(create_ones_list(50), [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1])
 
     def test_is_even(self):
         self.assertEqual(is_even([1, 2, 3]), False)
